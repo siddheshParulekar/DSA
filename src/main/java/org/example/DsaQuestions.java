@@ -1,5 +1,8 @@
 package org.example;
 
+import java.math.BigDecimal;
+import java.util.*;
+
 public class DsaQuestions {
 
     public int removeDuplicates(int[] nums) {
@@ -34,9 +37,69 @@ return left;
         String[] s1 = s.split(" ");
         return s1[s1.length-1].length();
     }
+
+//    public List<Integer> sequentialDigits(int low, int high) {
+//        int length = String.valueOf(low).length();
+//         int index=0;
+//         while
+//
+//    }
+
+    public int searchInsert(int[] nums, int target) {
+
+        List<Integer> intList = new ArrayList<>();
+        for (int num : nums) {
+            intList.add(num);
+        }
+        int index=0;
+       if (intList.contains(target)){
+           while (index<nums.length){
+               if (intList.get(index) == target)
+                   return index;
+               index ++;
+           }
+       }else
+       {
+           intList.add(target);
+           Collections.sort(intList);
+           while (index<nums.length){
+               if (intList.get(index) == target)
+                   return index;
+               index ++;
+           }
+       }
+        return index;
+    }
+
+
+    public int[] plusOne(int[] digits) {
+
+        for (int i = digits.length - 1; i >= 0; i--) {
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            }
+            digits[i] = 0;
+        }
+
+        digits = new int[digits.length + 1];
+        digits[0] = 1;
+        return digits;
+
+    }
+
     public static void main(String[] args) {
         DsaQuestions dsaQuestions = new DsaQuestions();
-        int[] num = {0,1,1,2};
-        System.out.println(dsaQuestions.removeDuplicates(num));
+        int[] num = {5,9};
+
+
+
+        System.out.println(Arrays.toString(dsaQuestions.plusOne(num)));
+        int sum = 0;
+        for (int i = 0;i<num.length;i++){
+            sum = sum*10+ num[i];
+        }
+//        System.out.println(dsaQuestions.removeDuplicates(num));
+//        System.out.println((int)Math.pow(10,9));
     }
 }
