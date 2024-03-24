@@ -17,9 +17,71 @@ public class LongestComPrefix {
         return str1.substring(0,startIndex);
     }
 
+    public int mySqrt(int x) {
+        if (x == 1)
+            return 1;
+        long i=1;
+        while (i<x/2){
+            if (i*i == x)
+                return (int) i;
+            else{
+                if ((i+1) *(i+1) >x)
+                    return (int) i;
+            }
+            i++;
+        }
+          return 0;
+    }
+
+    public int climbStairs(int n) {
+
+        if (n==0 || n==1 ||n==2){
+            return n;
+        }
+        int resultset[] = new int[n+1];
+        resultset[0]=0;
+        resultset[1]=1;
+        resultset[2] =2;
+
+        for (int i=3;i<=n;i++){
+            resultset[i] = resultset[i-1] +resultset[i-2];
+        }
+        return resultset[n];
+    }
+
+    public class ListNode {
+      int val;
+      ListNode next;
+      ListNode() {}
+      ListNode(int val) { this.val = val; }
+      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+    }
+
+    public ListNode deleteDuplicates(ListNode head) {
+
+        ListNode current= head;
+        while (current.next!= null && current!=null){
+            if (current.val == current.next.val)
+                current.next = current.next.next;
+            else
+                current  = current.next;
+        }
+        return head;
+    }
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+
+             for (int j =0;j<n;j++){
+                     nums1[j+m] =nums2[j];
+
+             }
+             Arrays.sort(nums1);
+
+    }
+
     public static void main(String[] args) {
         String[] strs = {"flow","flight","flower"};
-LongestComPrefix longestComPrefix = new LongestComPrefix();
+        LongestComPrefix longestComPrefix = new LongestComPrefix();
         System.out.println(longestComPrefix.longestCommonPrefix(strs));
     }
+
 }
