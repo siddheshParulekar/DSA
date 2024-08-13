@@ -87,19 +87,45 @@ return left;
         return digits;
 
     }
+    public int firstMissingPositive(int[] nums) {
+        if (nums.length==1 && nums[0]==0){
+            return 1;
+        }
+          Arrays.sort(nums);
+          Set<Integer> set = new HashSet<>();
+          int i=0;
+          while (i<nums.length){
+              set.add(nums[i]);
+              i++;
+          }
+
+          int j=1;
+          while (j<nums[nums.length-1])
+          {
+              if (!set.contains(j))
+                  return j;
+
+              j++;
+          }
+
+
+        return j;
+    }
 
     public static void main(String[] args) {
         DsaQuestions dsaQuestions = new DsaQuestions();
         int[] num = {5,9};
 
+        System.out.println(dsaQuestions.firstMissingPositive(num));
 
 
-        System.out.println(Arrays.toString(dsaQuestions.plusOne(num)));
-        int sum = 0;
-        for (int i = 0;i<num.length;i++){
-            sum = sum*10+ num[i];
-        }
-//        System.out.println(dsaQuestions.removeDuplicates(num));
-//        System.out.println((int)Math.pow(10,9));
+
+//        System.out.println(Arrays.toString(dsaQuestions.plusOne(num)));
+//        int sum = 0;
+//        for (int i = 0;i<num.length;i++){
+//            sum = sum*10+ num[i];
+//        }
+////        System.out.println(dsaQuestions.removeDuplicates(num));
+////        System.out.println((int)Math.pow(10,9));
     }
 }

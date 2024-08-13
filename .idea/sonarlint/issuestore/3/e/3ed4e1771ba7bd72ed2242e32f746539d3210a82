@@ -1,0 +1,13 @@
+
+W
+java:S1143%"5Remove this return statement from this finally block.(‰ÊÓùÿÿÿÿ8§ÕÖ£ò1
+E	java:S108")Either remove or fill this block of code.(÷úÇÿ8¾ÕÖ£ò1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ùåá8ÁÕÖ£ò1
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(¯—©‡8ÂÕÖ£ò1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Ÿÿó–üÿÿÿÿ8ÃÕÖ£ò1
+X	java:S125+"<This block of commented-out lines of code should be removed.(¸¡ÙÁ8ÄÕÖ£ò1
+C
+java:S2129-"!Remove this "Integer" constructor(›ëšÜøÿÿÿÿ8ÆÕÖ£ò1
+Q
+java:S1874-"/Remove this use of "Integer"; it is deprecated.(›ëšÜøÿÿÿÿ8ÆÕÖ£ò1
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(á…î¬8ÇÕÖ£ò1

@@ -1,3 +1,4 @@
 
-t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8Ö²—ãã1
-U	java:S106""9Replace this use of System.out or System.err by a logger.(õ„¸ü8ûä‹ãã1
+t	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8ô„‰”í1
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(È¢ÉÛ8À‡‰”í1
+]	java:S1251"<This block of commented-out lines of code should be removed.(…‡¿ýÿÿÿÿ8Á‡‰”í1

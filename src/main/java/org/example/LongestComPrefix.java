@@ -1,6 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class LongestComPrefix {
 
@@ -76,6 +76,24 @@ public class LongestComPrefix {
              }
              Arrays.sort(nums1);
 
+    }
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        Set<List<Integer>> uniqueset = new HashSet<>();
+        for (int i=0;i<nums.length;i++){
+            int k = nums.length-1;
+            for (int j=i+1;j< nums.length;j++){
+                while (j<k){
+                    if (nums[i] + nums[k] +nums[j] ==0) {
+                        uniqueset.add(List.of(nums[i],nums[k],nums[j]));
+                    }
+                    k--;
+                }
+            }
+
+        }
+        return new ArrayList<>(uniqueset);
     }
 
     public static void main(String[] args) {

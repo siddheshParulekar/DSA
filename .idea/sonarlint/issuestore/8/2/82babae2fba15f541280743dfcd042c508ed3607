@@ -1,0 +1,12 @@
+
+u	java:S135F"YReduce the total number of break and continue statements in this loop to use at most one.(¸ÅÊÔ8Ú˜è¹î1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¸§Äe8™è¹î1
+X
+java:S1854/"6Remove this useless assignment to local variable "l1".(‹­õäıÿÿÿÿ8™è¹î1
+L
+java:S1197?"*Move the array designators [] to the type.(Íƒ¶øüÿÿÿÿ8™è¹î1
+g
+java:S1854]"ERemove this useless assignment to local variable "linkedListExample".(ºÿ™şÿÿÿÿ8“™è¹î1
+X
+java:S1481]"6Remove this unused "linkedListExample" local variable.(ºÿ™şÿÿÿÿ8”™è¹î1
+]	java:S125_"<This block of commented-out lines of code should be removed.(ø“Æëşÿÿÿÿ8”™è¹î1

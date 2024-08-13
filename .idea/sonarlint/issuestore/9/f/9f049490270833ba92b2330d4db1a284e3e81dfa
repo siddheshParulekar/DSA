@@ -1,0 +1,15 @@
+
+{
+java:S1210"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¢¦ƒ ÿÿÿÿÿ8®—¤ò1
+a
+java:S1854."?Remove this useless assignment to local variable "sortedLisst".(¢Ó˜åşÿÿÿÿ8–®—¤ò1
+^
+java:S1854#"<Remove this useless assignment to local variable "employee".(ËÌô—ûÿÿÿÿ8—®—¤ò1
+O
+java:S1481#"-Remove this unused "employee" local variable.(ËÌô—ûÿÿÿÿ8™®—¤ò1
+]	java:S125,"<This block of commented-out lines of code should be removed.(ï”î–ıÿÿÿÿ8äû ¤ò1
+R
+java:S1481."0Remove this unused "sortedLisst" local variable.(¢Ó˜åşÿÿÿÿ8 ®—¤ò1
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(‹ü•ï8¢®—¤ò1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8çû ¤ò1
