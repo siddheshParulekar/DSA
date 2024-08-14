@@ -65,3 +65,13 @@ c
 3src/main/java/org/example/sorting/ComparatorEg.java,3/d/3d0ced2dc497e24edd1dad109df5dc1190a17e62
 d
 4src/main/java/org/example/String/StringQuestion.java,5/3/5379ecc6fd5a58acfd06e4a78ead8dd9bc6cd619
+c
+3src/main/java/org/example/shradha/ReverseArray.java,7/0/70f9a5f93ba5f846fde2f48a53287ddffa168d6c
+g
+7src/main/java/org/example/shradha/MinAndMaxOfArray.java,e/0/e0dc4a74cd1f2ffa5406593ee3c0aed791392a8d
+f
+6src/main/java/org/example/shradha/MaximumSubArray.java,3/c/3c542f03b66a2a281b854f93de1513a0158c1fe3
+U
+%src/main/java/org/example/Count1.java,9/a/9a0b0498d8f7f53903d34270ef70e7498d07100d
+b
+2src/main/java/org/example/shradha/KthSmallest.java,5/8/581b4c0196adb5b539144ed7988f6941cf03a3f9
