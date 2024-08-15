@@ -6,7 +6,7 @@ public class ChocoloateProblem {
 
     public static void main(String[] args) {
         int[] arr = {7, 3, 2, 4, 9, 12, 56};
-chocolateDistribution(arr,3);
+        chocolateDistribution(arr,3);
     }
 
   static  void chocolateDistribution(int[] arr,int m){

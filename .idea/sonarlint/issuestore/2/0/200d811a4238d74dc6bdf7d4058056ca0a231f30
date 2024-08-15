@@ -1,0 +1,8 @@
+
+`
+java:S1659">Declare "j" and all following declarations on a separate line.(ãäÚ‘üÿÿÿÿ8ñý„ß”2
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(÷ø„²8óý„ß”2
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ôý„ß”2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ôý„ß”2
