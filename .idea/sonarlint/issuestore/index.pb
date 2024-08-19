@@ -77,8 +77,6 @@ h
 8src/main/java/org/example/shradha/RotatetArrayByOne.java,c/9/c963dd59fc398fcc4b812edcda0bc777a217061a
 d
 4src/main/java/org/example/MinimumInRSortedArray.java,0/7/07e8373f602009972e80f81b84fea3c4643ee3bf
-a
-1src/main/java/org/example/shradha/KthLargest.java,4/0/405ea1b7c12c760b9eacf685e618fe20e5b45f53
 d
 4src/main/java/org/example/cyclicsort/CyclicSort.java,c/c/ccb9e641cec0ca66d0fc9c74b522090c7f0fcf8d
 h
