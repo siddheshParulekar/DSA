@@ -1,9 +1,6 @@
 package org.example.shradha;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 
 public class UnionOf2Arrays {
 
@@ -80,5 +77,27 @@ public class UnionOf2Arrays {
 
         return result;
 
+    }
+
+
+
+
+    //GFG sorted
+
+    public static ArrayList<Integer> findUnion(int arr1[], int arr2[], int n, int m)
+    {
+        // add your code here
+        HashSet<Integer> set = new HashSet<>();
+        for (int j : arr1) {
+            set.add(j);
+        }
+
+        for (int i : arr2) {
+            set.add(i);
+        }
+
+        ArrayList<Integer> integers = new ArrayList<>(set);
+        Collections.sort(integers);
+        return integers;
     }
 }
